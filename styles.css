@@ -1,0 +1,128 @@
+body{
+    background-color: #FFE4C4;
+}
+nav{
+    width : 100%;
+    display: flex;
+    margin-top: 5px;
+    position : fixed;
+
+}
+nav a{
+    flex : 1;
+    margin-left: 135px;
+    font-size: 20px;
+    text-decoration: none;
+    color : blue;
+}
+a:hover{
+    color : red;
+    font-size: 21px;
+}
+.banner{
+    background-color: #FF4500;
+    width : 75%;
+    height : 25rem;
+    margin-top: 8rem;
+    border : solid 1px transparent;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 8px rgb(80, 74, 74) ;
+    display: flex;
+}
+.banner div{
+    padding-top: 50px;
+    flex : 1;
+}
+.banner img{
+    width: 300px;
+    height : 300px;
+} 
+.content{
+    color : #FFE4C4;
+    padding-top : 55px;
+    padding-left : 25px;
+    padding-right : 25px;
+}
+.content h1{
+    margin-top: 45px;
+}
+.content p{
+    margin-top: 30px;
+    font-weight: 300;
+}
+.precautions{
+    width : 100%;
+    display: flex;
+}
+.precautions .precautionspoints{
+    flex : 2;
+}
+.precautions .imagepre{
+    flex : 1;
+    
+}
+.imagepre img{
+   margin-top: 55px;
+   margin-left: 5px;
+   margin-right: 10px;
+}
+.pageprecautions{
+    background-color: #00FFFF;
+    color : red;
+}
+ul li{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+.reasons{
+    display: flex;
+}
+.reasons .god{
+    flex : 1;
+}
+.reasons .p{
+    flex: 2; 
+}
+.god img{
+    margin : 5px 5px 5px 5px;
+    width : 300px;
+    height : 250px;
+    border: solid 2px black;
+    border-radius: 15px;
+}
+.sub{
+    color : #000080;
+}
+.main{
+    color : rgb(223, 106, 126);
+}
+@media screen and (max-width: 735px) {
+    .banner{
+        width: 250px;
+        height: 600px;
+        display: block;
+    }
+    .banner img{
+        width: 200px;
+        height: 200px;
+        padding-top : 5px;
+        margin-right : 0px;
+    }
+    .banner h1{
+        margin-top : 15px;
+    }
+    .banner p{
+        margin-top: 20px;
+    }
+    .reasons{
+        display: block;
+    }
+    .precautions{
+        display: block;
+    }
+    .precautions img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  }
